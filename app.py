@@ -1,6 +1,10 @@
-from turle import Turtle, Screen
+from turtle import Turtle, Screen
 import random
 import time
+
+# todo make a option to choose between spaceship or ufo,
+# todo make more aliens
+# create levels and super powers 
 
 spaceD =15
 def moveLeft():
@@ -145,12 +149,4 @@ rock_spd = 8
 
 
 
-
-
-
-
-
-
-
-
-screen.exutonclick()
+Screen.exitonclick()
